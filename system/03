@@ -1,0 +1,4 @@
+We need to change in /etc directory file "hostname" for make
+a permanent new hostname
+
+echo "newhostname" > /etc/hostname

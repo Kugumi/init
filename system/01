@@ -1,0 +1,4 @@
+We can find it in /etc directory in "debian_version" file.
+/etc directory store configuration files (FHS standart)
+
+cat /etc/debian_version
