@@ -1,4 +1,0 @@
-/etc/resolv.conf
-
-In /etc directory store configuration files. resolv.conf - config file for
-resolver, that contains programs in C library that provides access to DNS.

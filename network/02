@@ -1,3 +1,0 @@
-a) ifconfig | grep "broadcast" | awk '{print $6}'
-
-b) arp -a | grep "school" | awk {'print $2'} | cut -d "(" -f2 | rev | cut -d ")" -f2 | rev
