@@ -1,4 +1,11 @@
-We can find it in /etc directory in "debian_version" file.
-/etc directory store configuration files (FHS standart)
+#!/bin/sh
 
-cat /etc/debian_version
+BOLD='\033[1m'
+GRAY='\033[0;37m'
+NORMAL='\033[0m'
+RED='\033[0;31m'
+
+echo "${RED}/etc/debian_version"
+
+echo "${GRAY}We can find it in ${NORMAL}${BOLD}/etc${NORMAL}${GRAY} directory in ${NORMAL}${BOLD}'debian_version'${NORMAL}${GRAY} file.
+/etc directory store configuration files (FHS standart)"

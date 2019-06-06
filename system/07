@@ -1,1 +1,8 @@
-cat /var/run/sshd.pid
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+pid=`cat /var/run/sshd.pid`
+echo "${GRAY}cat /var/run/sshd.pid"
+echo "${RED}$pid"

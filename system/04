@@ -1,1 +1,8 @@
-awk {'print $1'} /proc/uptime
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+u=`awk {'print $1'} /proc/uptime`
+echo "${GRAY}awk {'print $1'} /proc/uptime"
+echo ${RED}$u

@@ -1,1 +1,15 @@
-By default ssh rsa keys stored in /root/.ssh file "id_rsa"
+#!/bin/sh
+
+BOLD='\033[1m'
+GRAY='\033[0;37m'
+NORMAL='\033[0m'
+RED='\033[0;31m'
+
+echo "${GRAY}By default ssh rsa keys stored in ${NORMAL}${BOLD}/root/.ssh file "id_rsa"(private)
+and id_rsa.pub(public)${NORMAL}"
+srpr=`cat ~/.ssh/id_rsa`
+srpu=`cat ~/.ssh/id_rsa.pub`
+echo "${GRAY}cat ~/.ssh/id_rsa"
+echo "${RED}$srpr"
+echo "${GRAY}cat ~/.ssh/id_rsa.pub"
+echo "${RED}$srpu"

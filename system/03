@@ -1,4 +1,12 @@
-We need to change in /etc directory file "hostname" for make
-a permanent new hostname
+#!/bin/sh
 
-echo "newhostname" > /etc/hostname
+GRAY='\033[0;37m'
+NORMAL='\033[0m'
+BOLD='\033[1m'
+RED='\033[0;31m'
+
+echo "${GRAY}We need to change in ${NORMAL}${BOLD}/etc${NORMAL}${GRAY} directory file ${NORMAL}${BOLD}'hostname'${NORMAL}${GRAY} for make
+a permanent new hostname"
+nh=`echo "newhostname" > /etc/hostname`
+echo "${GRAY}"newhostname" > /etc/hostname"
+$nh

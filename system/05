@@ -1,1 +1,8 @@
-/etc/init.d/ssh status | grep "Active"
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+ss=`/etc/init.d/ssh status | grep "Active"`
+echo "${GRAY}/etc/init.d/ssh status | grep "Active""
+echo ${RED}$ss
