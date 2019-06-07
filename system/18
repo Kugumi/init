@@ -1,0 +1,7 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+kill $(pgrep ssh)
+echo 'kill $(pgrep ssh)'

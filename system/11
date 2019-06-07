@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+d=`df -h`
+echo "${GRAY}df -h"
+echo "${RED}$d"

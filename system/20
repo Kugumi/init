@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+u=`cat /etc/passwd | awk -F: {'print $1'}`
+echo "${GRAY}cat /etc/passwd | awk -F: {'print $1'}"
+echo "${RED}$u"

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+f=`fdisk -l`
+echo "${GRAY}fdisk -l"
+echo "${RED}$f"

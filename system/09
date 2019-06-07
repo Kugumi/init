@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+u=`users`
+echo "${GRAY}users"
+echo ${RED}$u

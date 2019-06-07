@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "We can connect yourself as new user with "adduser username" command.Then, type "su - pik" to switch for it.
+ssh the same
+"ssh username@usernameIP"
+"adduser username"
+"su - pik""

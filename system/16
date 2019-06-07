@@ -1,0 +1,9 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+NORMAL='\033[0m'
+BOLD='\033[1m'
+
+echo "${BOLD}crontab${NORMAL}${GRAY} makes possible to run specific tasks following regular shedule.
+We need to type crontab -e for start to edit. For example, add that command:
+@hourly /root/script.sh and script.sh will be executed every hour"

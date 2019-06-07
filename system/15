@@ -1,0 +1,7 @@
+#!/bin/sh
+
+RED='\033[0;31m'
+
+echo "${RED}kill PID"
+
+for proc in $(pgrep tail); do kill -9 $proc; done;

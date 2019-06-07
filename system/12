@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+d=`du -sh /var/*`
+echo "${GRAY}du -sh /var/*"
+echo "${RED}$d"

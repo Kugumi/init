@@ -1,0 +1,8 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+RED='\033[0;31m'
+
+i=`ls /etc/init.d`
+echo "${GRAY}ls /etc/init.d"
+echo ${RED}$i

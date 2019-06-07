@@ -1,0 +1,6 @@
+#!/bin/sh
+
+GRAY='\033[0;37m'
+
+echo "${GRAY}top"
+top
