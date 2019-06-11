@@ -4,6 +4,7 @@ GRAY='\033[0;37m'
 NORMAL='\033[0m'
 RED='\033[0;31m'
 
-hn=`hostname`
 echo "${GRAY}hostname newhostname"
-echo ${RED}$hn
+hostname newhostname
+h=`hostname`
+echo ${RED}$h
